@@ -1,0 +1,179 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.top {
+    padding: 0px 200px; 
+    background-color: #1f2937;
+    
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 0 48;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    padding: 0px 10px;
+    
+}
+
+.hero {
+    display: flex;
+    gap: 0px 48px;
+    padding: 0px 0px 96px 0px;
+    
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8; 
+    
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #EFE7EB; 
+    
+} 
+
+.top-button {
+ background-color: #3882f6;
+ color: #e5e7eb;
+ border-radius: 4px;
+ padding: 8px 24px;
+ border: 0;
+ font-weight: bold;
+}
+
+.hero-right, .hero-left {
+    flex: 1;
+}
+
+.hero-right {
+    padding: 48px 0px 0px 0px;
+    display: flex;
+}
+
+.img-container {
+    display: flex;
+    flex: 1;
+    background-color: slategray;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.section-two {
+    padding: 0px 200px 64px;
+    flex: 1;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: bold;
+}
+
+.squares {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.square-container {
+    width: 120px;
+    color: grey;
+    font-size: smaller;
+    text-align: center;
+}
+
+.rounded-square {
+    width: 120px;
+    height: 120px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 12px;
+}
+
+.section-three {
+    padding: 0px 300px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    
+    font-style: italic;
+}
+
+.signature {
+    font-size: 24px;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.section-four {
+    padding: 48px 200px;
+    
+
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    align-items: center;
+    padding: 0px 80px;
+    border-radius: 8px;
+}
+
+
+.content-right, .content-left {
+    
+    flex: 1;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+}
+
+.end-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 50px;
+    
+}
+
+.footer {
+    
+    display: flex;
+    background-color: #1f2937;
+    color: #EFE7EB;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
